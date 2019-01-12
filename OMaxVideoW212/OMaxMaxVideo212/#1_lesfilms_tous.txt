@@ -1,0 +1,14 @@
+1, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/Bon_Brute_XFinal.mov 394410 9862;
+2, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/ColtraneMFT1-2.mov 479871 11998;
+3, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/DG_MiTradi_Fin.mov 635242 15881;
+4, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/EurythmicsSweetThings.mov 265984 6659;
+5, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/hendrix_960.mov 298422 7462;
+6, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/Mahler_SIV_HLAbb.mov 561895 14047;
+7, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/MonDIeutotd.mov 171200 4183;
+8, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/RoundMidnight_KJ.mov 275738 6894;
+9, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/RoundMidnight_TM.mov 99576 2388;
+10, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/ShallWeDance.mov 249010 6225;
+11, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/TEX_Avery.mov 117205 2934;
+12, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/Billie_TheBluesIsBlueing.mov 127626 3190;
+13, Macintosh_HD:/Users/gabloch/Music/Oraclette2/ovideo_films/Essais_IK_Films/S&M.mov 147149 3715;
+
