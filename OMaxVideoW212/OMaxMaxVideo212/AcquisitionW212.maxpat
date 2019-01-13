@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -456.0, -949.0, 1136.0, 856.0 ],
+		"rect" : [ -658.0, -1071.0, 1136.0, 856.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,22 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.999996, 0.999939, 0.041033, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-143",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 750.75, 495.5, 95.0, 20.0 ],
+					"style" : "",
+					"text" : "r #1_size_matrxset"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 					"id" : "obj-145",
@@ -1954,7 +1970,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 220.0, 378.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "2000"
+									"text" : "650"
 								}
 
 							}
@@ -2543,7 +2559,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 346.583313, 11.0, 97.0, 22.0 ],
+									"patching_rect" : [ 346.583313, 11.0, 109.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0_rec_enable"
 								}
@@ -3504,6 +3520,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-151",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -5238,7 +5255,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 979.75, 825.5, 229.0, 35.0 ],
 					"style" : "",
-					"text" : "Macintosh_HD:/Users/gabloch/Desktop/Dual2_15.mov"
+					"text" : "Macintosh_HD:/Users/gabloch/Desktop/Dual2_2.mov"
 				}
 
 			}
@@ -9987,13 +10004,14 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
+					"fontsize" : 10.0,
 					"gradient" : 1,
 					"id" : "obj-40",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 506.0, 123.0, 22.0 ],
+					"patching_rect" : [ 450.0, 511.0, 104.0, 20.0 ],
 					"style" : "",
 					"text" : "exportattrs #1_matrix"
 				}
@@ -10009,7 +10027,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 458.0, 298.0, 99.0, 22.0 ],
+					"patching_rect" : [ 458.0, 298.0, 111.0, 22.0 ],
 					"style" : "",
 					"text" : "s #0_rec_enable"
 				}
@@ -10225,6 +10243,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-138",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10921,6 +10940,7 @@
 									"bgcolor" : [ 0.9932, 1.0, 0.071976, 1.0 ],
 									"fontsize" : 9.0,
 									"id" : "obj-105",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -11581,7 +11601,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 785.0, 495.5, 48.0, 19.0 ],
+					"patching_rect" : [ 785.0, 520.0, 48.0, 19.0 ],
 					"style" : "",
 					"text" : "% 1000"
 				}
@@ -11605,7 +11625,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 785.0, 530.0, 48.0, 20.0 ],
+					"patching_rect" : [ 785.0, 544.0, 48.0, 20.0 ],
 					"style" : "",
 					"text" : "index $1"
 				}
@@ -11621,7 +11641,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.5, 544.0, 90.0, 22.0 ],
+					"patching_rect" : [ 507.0, 530.0, 90.0, 22.0 ],
 					"style" : "",
 					"text" : "v #1_absframe"
 				}
@@ -13163,7 +13183,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 294.0, 480.0, 386.0, 22.0 ],
 									"style" : "",
-									"text" : "write Macintosh_HD:/Users/gabloch/Desktop/Dual2_15_fnb.pat"
+									"text" : "write Macintosh_HD:/Users/gabloch/Desktop/Dual2_2_fnb.pat"
 								}
 
 							}
@@ -13333,7 +13353,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.0, 374.0, 147.0, 22.0 ],
 									"style" : "",
-									"text" : "Dual2_15_fnb.pat"
+									"text" : "Dual2_2_fnb.pat"
 								}
 
 							}
@@ -14156,7 +14176,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 575.333313, 323.0, 50.0, 69.0 ],
 									"style" : "",
-									"text" : "Macintosh_HD:/Users/gabloch/Desktop/Dual2_15.mov 25."
+									"text" : "Macintosh_HD:/Users/gabloch/Desktop/Dual2_2.mov 25."
 								}
 
 							}
@@ -14177,6 +14197,7 @@
 								"box" : 								{
 									"bgcolor" : [ 0.9932, 1.0, 0.071976, 1.0 ],
 									"id" : "obj-9",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -14788,7 +14809,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 52.0, 257.0, 50.0, 49.0 ],
 																	"style" : "",
-																	"text" : "name Dual2_15.mov"
+																	"text" : "name Dual2_2.mov"
 																}
 
 															}
@@ -15693,7 +15714,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
 									"id" : "obj-68",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -16432,6 +16453,7 @@
 													"fontface" : 0,
 													"fontsize" : 9.0,
 													"id" : "obj-36",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -17277,7 +17299,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 378.0, 544.0, 79.5, 19.0 ],
+					"patching_rect" : [ 378.0, 544.0, 81.5, 19.0 ],
 					"style" : "",
 					"text" : "r #0_matrixsets"
 				}
@@ -17302,7 +17324,7 @@
 				"box" : 				{
 					"comment" : "in Video (grab or film)",
 					"id" : "obj-87",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -17330,7 +17352,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-84",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -17368,7 +17390,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 198.0, 74.0, 60.0, 19.0 ],
 					"style" : "",
-					"text" : "Connect?",
+					"text" : "Dual2",
 					"textjustification" : 1
 				}
 
@@ -18262,6 +18284,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-7",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -19883,6 +19906,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 125.0, 147.0, 15.0 ],
 					"style" : "",
+					"text" : "Dual2_2",
 					"textcolor" : [ 0.0, 0.078431, 0.321569, 1.0 ]
 				}
 
@@ -20172,6 +20196,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-140", 0 ],
 					"source" : [ "obj-141", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-188", 1 ],
+					"source" : [ "obj-143", 0 ]
 				}
 
 			}
@@ -21001,7 +21032,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-131", 0 ],
-					"midpoints" : [ 584.5, 502.5, 469.0, 502.5 ],
+					"midpoints" : [ 584.5, 502.5, 516.5, 502.5 ],
 					"order" : 1,
 					"source" : [ "obj-73", 0 ]
 				}
@@ -21105,23 +21136,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "receive_OSCW209.maxpat",
-				"bootpath" : "~/Music/Oraclette2/OMaxVideoW212/OMaxMaxVideo212",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Ut_dim_NB.maxpat",
-				"bootpath" : "~/Music/Oraclette2/OMaxVideoW212/OMaxMaxVideo212",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
